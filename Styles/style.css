@@ -35,7 +35,7 @@
     margin-left: auto;
     flex-direction: column;
     position: absolute;
-    right: 0px;
+    left: 350px;
     top: 140px;
     padding-left: 8px;
     width: 60%;
@@ -51,8 +51,8 @@
     margin-left: auto;
     flex-direction: column;
     position: absolute;
-    right: 0px;
-    top: 400px;
+    left: 350px;
+    top: 410px;
     padding-left: 8px;
     width: 60%;
 }
@@ -60,8 +60,26 @@
 .castinfo{
     display: flex;
     flex-direction: row;
-    background-color: rgb(24, 24, 143);
+    justify-content: flext-start;
+    width: 180px;
+    padding-left: 8px;
+    padding-top: 8px;
+    height: 320px;
+    background-color: rgb(10, 10, 92);
     color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    left: 350px;
+    top: 475px;
+}
+
+.citybuttons{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.637);
+    color: black;
     font-family: "Jersey 25", sans-serif;
     font-weight: 400;
     font-style: normal;
