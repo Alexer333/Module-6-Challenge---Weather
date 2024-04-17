@@ -19,15 +19,15 @@
   <h1 class="lefont">
       <form>
         <label class="searchy" for="city">Search for a City:</label><br>
-        <input class = "searchy" type="text" id="city"><br>
-        <input class = "sub" type="submit" id="submit">
+        <input class = "searchy" type="text" id="city" placeholder="City Name" name="textInput"><br>
+        <input class = "sub" type="button" id="myInput" value="Search" onClick="submit()">
       </form>
   </h1>
 
   <!-- Displays the weather information -->
 <div class="areainfo">
 <!-- Displays area name -->
-  <h1>Placeholder</h1>
+  <h1 id="output"">Placeholder</h1>
 <!-- Displays the info -->
   <h2>Temp: </h2>
   <h2>Wind: </h2>
